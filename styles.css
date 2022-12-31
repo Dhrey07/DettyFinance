@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&family=Poppins:wght@400;500;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+:root{
+    --lower-bg: #FAFAFA;
+}
+
+html {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: var(--black);
+}
+h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.25rem;
+    line-height: 62px;
+    margin-block: 2rem;
+}
+h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.625rem;
+    line-height: 48px;
+    margin-block: 1.6875rem;
+}
+h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3125rem;
+    line-height: 48px;
+    margin-block: 1.6875rem;
+}
+h4{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #18181B;
+}
+p{
+    line-height: 26px;
+}
+
+header{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+
+    margin: 2.5rem auto;
+    
+}
+ul,li{
+    list-style: none;
+
+}
+a {
+    color: black;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+#list-items{
+    display: flex;
+    gap: 3.5rem;
+}
+.detty-header{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+    
+}
+button{
+    background: black;
+    color: white;
+    padding: 0.56rem 1.75rem;
+    border-radius: 10px;
+}
+
+/* MAIN */
+
+/* CONTAINER-1 */
+.container-1{
+    max-width: 533px;
+    text-align: center;
+    display: block;
+    margin: 5.625rem auto;
+    margin-bottom: 7rem;
+}
+.container-1 > button{
+    padding: 1rem 3.6875rem;
+}
+.main-text{
+    display: inline;
+}
+/* .place{
+    
+    background: linear-gradient(90deg, #44BCFF -0.55%, #44B0FF 22.86%, #FF44EC 48.36%, #FF44EC 73.33%, #FF675E 99.34%);
+    filter: blur(25px);
+    transform: rotate(0deg);
+} */
+img[src*='DesktopINfo']{
+    display: block;
+    margin: auto;
+}
+
+/* CONTAINER-2 */
+.container-2{
+    display: block;
+    margin: 3rem auto;
+    width: 90%;
+
+}
+.container-2-upper{
+    margin-block: 7rem;
+    text-align: center;
+}
+
+.offer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 330px;
+}
+.offers{
+    display: flex;
+    gap: 3.4375rem;
+    justify-content: center;
+   
+}
+/* CONTAINER */
+.container-3{
+    padding-block: 149px;
+    background: var(--lower-bg);
+
+}
+.container-3 > h2{
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.sign{
+    background: #FFFFFF;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+    width: 382px;
+    border-radius: 10px;
+    padding-block: 97px;
+    padding-inline: 32px 55px;
+}
+.how-it-works{
+    background: url(/Images/HIW-BCG.svg);
+    background-size: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+    margin: auto;
+}
