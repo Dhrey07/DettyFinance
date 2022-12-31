@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&family=Poppins:wght@400;500;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+:root{
+    --lower-bg: #FAFAFA;
+}
+
+html {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: var(--black);
+}
+h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 0.875rem;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #EFA92F;
+}
+h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #17191C;
+}
+h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 48px;
+}
+h4{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #18181B;
+}
+
+body{
+    max-width: 1440px;
+    display: block;
+    margin: auto;
+}
+header{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+
+    margin: 2.5rem auto;
+    
+}
+ul,li{
+    list-style: none;
+
+}
+a {
+    color: black;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+button{
+    background: rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
+    width: 256px;
+    padding: 1.4375rem 0rem;
+    border-radius: 10px;
+
+    font-weight: 700;
+    font-family: Poppins;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    line-height: 22px;
+}
+
+
+.detty-area{
+    background: rgba(185, 185, 185, 0.48);
+    height: 100vh;
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    align-items: center;
+    padding-block: 50px;
+}
+
+.dashboard{
+    display: flex;
+    gap: 27px;
+    width: 200px;
+    padding-left: 44px;
+}
+.customer-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    margin-bottom: 350px;
+}
+
+.dashboard:hover{
+    background: #828282;
+    border-radius: 8px;
+
+    
+}
+.detty-area p{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.detty-area a{
+    color: #DA3F51;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    line-height: 22px;
+}
+
+.Dashboard-section{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dashboard-informatiopn{
+    width: 90%;
+    margin-inline: 3rem;
+}
+
+.profile-information{
+    padding-block: 50px 39px;
+    display: flex;
+    gap: 1rem;
+}
+.profile-information img{
+    border-radius: 50%;
+}
+
+.main-dashboard{
+    background: #17191C;
+    border-radius: 8px;
+
+    
+}
+.accounts{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    margin: 0rem auto;
+    padding-block: 3.875rem;
+}

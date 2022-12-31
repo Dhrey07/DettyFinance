@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&family=Poppins:wght@400;500;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+:root{
+    --lower-bg: #FAFAFA;
+}
+
+html {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: var(--black);
+}
+h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 48px;
+    margin-block: 40px 111px;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #18181B;
+}
+p{
+    line-height: 26px;
+}
+
+
+ul,li{
+    list-style: none;
+
+}
+a {
+    color: black;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+button{
+    background: black;
+    color: white;
+    /* padding: 0.56rem 1.75rem; */
+    height: 68px;
+    border-radius: 4px;
+}
+button h4{
+    color: #FFFFFF;
+}
+/*MAIN*/
+body{
+    max-width: 1440px;
+    display: block;
+    margin: auto;
+}
+img[src*='detty 3']{
+    margin: 48px 0 0 94px;
+}
+.login-container{
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15% auto;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    
+}
+.login-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    gap: 0.5rem;
+
+    width: 450px;
+    margin-bottom: 185px;
+}
+input{
+    height: 55px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+}
+input::placeholder{
+    padding-left: .5rem;
+}
