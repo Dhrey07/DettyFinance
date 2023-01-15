@@ -52,6 +52,7 @@ h4{
 p{
     line-height: 26px;
     font-size: 1rem;
+    font-family: Inter;
 }
 
 header{
@@ -68,10 +69,17 @@ ul,li{
     list-style: none;
 
 }
+li{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #18181B;
+}
 a {
     color: black;
-    font-family: 'Plus Jakarta Sans';
-    font-weight: 500;
+    font-family: Inter;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -89,7 +97,7 @@ a {
 .sign-up{
     display: flex;
     align-items: center;
-    gap: 3.5rem;
+    gap: 1rem;
     
 }
 .sign-up a{
@@ -113,6 +121,10 @@ button{
     font-size: 1rem;
     line-height: 24px;
     font-weight: 600;
+}
+.sign-up button{
+    padding: 1rem 3rem;
+    border-radius: 5px;
 }
 
 /* MAIN */
@@ -226,11 +238,85 @@ img[src*='DesktopINfo']{
 
 .how-it-works{
     background: url(/Images/HIW-BCG.svg);
-    background-size: 50%;
+    background-size: 30%;
     width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 41px;
     margin: auto;
+}
+
+/* CONTAINER-4 */
+.container-4{
+    background-color: #000000;
+    color: #FAFAFA;
+    text-align: center;
+    padding-block: 2.5rem;
+    width: 90%;
+    margin: auto;
+}
+.info-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.info-section input{
+    width: 280px;
+    background: none;
+    border: 1px solid #FAFAFA;
+    padding-block: 20px;
+    padding-inline: 24px 100px;
+    color: #FAFAFA;
+    border-radius: 4px;
+}
+.info-section input::placeholder{
+    color: #FAFAFA;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 22px;
+}
+.customer-info-section{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.customer-info-section button{
+    background: #FAFAFA;
+    color: #000000;
+    padding: 1rem 100px;
+    align-self: flex-end;
+    border-radius: 4px;
+}
+
+/* FOOTER */
+footer{
+    display: block;
+    margin: auto;
+    max-width: 521px;
+    text-align: center;
+    margin-block: 116px 27px;
+}
+footer ul{
+    margin-block: 1rem 2rem;
+    justify-content: center;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-block: 32px;
+}
+footer p{
+    font-weight: 400;
+    font-family: Inter;
+    font-size: 1rem;
+    line-height: 24px;
 }
