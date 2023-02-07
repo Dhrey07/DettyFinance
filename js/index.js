@@ -1,6 +1,6 @@
 
 
-const url = 'http://localhost:8000/waitlist/create'
+const url = 'https://dettyfinance.onrender.com/waitlist/create'
 
 const waitListForm = document.querySelector('#form_waitlist')
 const emailInput = document.querySelector("#email");
