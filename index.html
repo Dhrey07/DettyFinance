@@ -34,7 +34,14 @@
     <main>
       <div class="container-1">
         <p>Effective debt management platform, made for everyone</p>
-        <h1>Get All Your Debts In One <span class="place">Place</span></h1>
+        <h1>
+          Get All Your Debts In One
+
+          <span class="for-bck-inner">
+            Place
+            <img class="place" src="#" alt="#" />
+          </span>
+        </h1>
         <button>Get Started</button>
       </div>
       <img src="Images/DesktopINfo.svg" alt="Description" />
@@ -169,25 +176,36 @@
         <h2>Join The Waitlist</h2>
         <p>Enter your details below and we will notify you when we are live!</p>
 
-        <div class="customer-info-section">
-          <div class="info-section">
-            <p>E-mail</p>
-            <input type="mail" placeholder="Enter your email address" />
-          </div>
+        <form id="form_waitlist">
+          <div class="customer-info-section">
+            <div class="info-section">
+              <p>E-mail</p>
+              <input
+                id="email"
+                type="mail"
+                placeholder="Enter your email address"
+              />
+            </div>
 
-          <div class="info-section">
-            <p>First Name</p>
-            <input type="mail" placeholder="Enter your first name" />
-          </div>
+            <div class="info-section">
+              <p>First Name</p>
+              <input
+                id="first_name"
+                type="mail"
+                placeholder="Enter your first name"
+              />
+            </div>
 
-          <button type="submit">
-            <a
+            <button type="submit">
+              Join the List!
+              <!-- <a
               href="https://form.waitlistpanda.com/go/v4VkNMXWKMqx5CFXRlZ4"
               data-waitlist-id="v4VkNMXWKMqx5CFXRlZ4"
               >Join the List!</a
-            >
-          </button>
-        </div>
+            > -->
+            </button>
+          </div>
+        </form>
       </div>
     </main>
 
@@ -210,5 +228,8 @@
 
       <p>@copyright 2022. All right reserved.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

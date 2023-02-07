@@ -25,6 +25,7 @@ h1{
     font-size: 4.3125rem;
     line-height: 92px;
     margin-block: 2rem;
+    
 }
 h2{
     font-family: Poppins;
@@ -136,10 +137,14 @@ button{
     display: block;
     margin: 5.625rem auto;
     margin-bottom: 7rem;
+    
+    
 }
 .container-1 > p{
     font-size: 1.2rem;
     line-height: 23px;
+    
+    
 }
 .container-1 > button{
     padding: 1.25rem 6.25rem;
@@ -147,12 +152,18 @@ button{
 .main-text{
     display: inline;
 }
-/* .place{
+.for-bck-inner{
+    position: relative;
+}
+
+.place{
     
     background: linear-gradient(90deg, #44BCFF -0.55%, #44B0FF 22.86%, #FF44EC 48.36%, #FF44EC 73.33%, #FF675E 99.34%);
     filter: blur(25px);
     transform: rotate(0deg);
-} */
+    z-index: 1;
+}
+
 img[src*='DesktopINfo']{
     display: block;
     margin: auto;
