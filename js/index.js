@@ -22,10 +22,15 @@ try {
     const response = await axios.post(url,body)
     nameInput.value = '';
     emailInput.value = ''
-    alert("Thank You for Joining Our Waitlist")
+    const modal_popup = document.querySelector("#modal")
+    modal_popup.classList.add("modal-open");
+    setTimeout(() =>{
+        modal_popup.classList.remove("modal-open");
+    },2000)
+    // alert("Thank You for Joining Our Waitlist")
 } catch (error) {
-    console.log(error.response.data.message)
-    alert(error.response?.data?.message)
+    console.log(error)
+    alert(error.response?.data?.message || error.response.data.error)
 }
 
 
