@@ -323,9 +323,9 @@ img[src*='DesktopINfo']{
     line-height: 24px;
     color: #353535;
 }
-.chek{
+/* .chek{
     filter: invert(88%) sepia(30%) saturate(5428%) hue-rotate(78deg) brightness(96%) contrast(94%);
-}
+} */
 #modal-container{
     position: fixed;
     top: 50%;
