@@ -161,7 +161,8 @@ button{
     background: linear-gradient(90deg, #44BCFF -0.55%, #44B0FF 22.86%, #FF44EC 48.36%, #FF44EC 73.33%, #FF675E 99.34%);
     filter: blur(25px);
     transform: rotate(0deg);
-    z-index: 1;
+    z-index: -1;
+    position: fixed;
 }
 
 img[src*='DesktopINfo']{
@@ -239,8 +240,9 @@ img[src*='DesktopINfo']{
     max-width: 261px;
     color: #FAFAFA;
     height: 47px;
+
     padding-block: 1.25rem;
-    padding-inline: 1rem 3rem;
+    padding-inline: 0.5rem 0.5rem;
     
     border-radius: 4px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
@@ -254,9 +256,13 @@ img[src*='DesktopINfo']{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 41px;
+    gap: 21px;
     margin: auto;
 }
+@media screen {
+    
+}
+
 
 /* CONTAINER-4 */
 .container-4{
@@ -276,7 +282,7 @@ img[src*='DesktopINfo']{
 }
 
 .info-section input{
-    width: 280px;
+    max-width: 280px;
     background: none;
     border: 1px solid #FAFAFA;
     padding-block: 20px;
@@ -291,9 +297,16 @@ img[src*='DesktopINfo']{
     font-size: 1rem;
     line-height: 22px;
 }
+#form_waitlist{
+    margin-top: 1rem;
+}
 .customer-info-section{
     display: flex;
     margin-top: 2.6875rem;
+    width: 90%;
+    margin: auto;
+
+
 
     align-items: center;
     justify-content: center;
@@ -302,7 +315,7 @@ img[src*='DesktopINfo']{
 .customer-info-section button{
     background: #FAFAFA;
     color: #000000;
-    padding: 1rem 100px;
+    padding: 1rem 30px;
     align-self: flex-end;
     border-radius: 4px;
 }
