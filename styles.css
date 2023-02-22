@@ -517,7 +517,7 @@ footer p{
 
 @media (max-width: 814px) {
     .div-1 img[src*='divider']{
-        visibility: hidden;
+        display: none;
     }
 }
 @media  (max-width: 430px){
@@ -563,8 +563,11 @@ footer p{
         margin-block: 2.5rem 0rem;
 
     }
+    .container-2-upper p{
+        margin-bottom: 2rem;
+    }
     .div-1{
-        gap: 0rem;
+        gap: 1rem;
         align-items: normal;
     }
     .offer-info{
