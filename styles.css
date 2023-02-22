@@ -624,11 +624,12 @@ footer p{
         margin-block: 0rem;
     }
     .customer-info-section button{
-        padding: 16px 112px;
+        padding: 16px 0px;
 
         font-size: 13px;
         font-weight: 600;
         line-height: 24px;
+        width: 100%;
     }
     .info-section input::placeholder{
         font-size: 0.8125rem;
