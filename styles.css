@@ -624,7 +624,7 @@ footer p{
         margin-block: 0rem;
     }
     .customer-info-section button{
-        padding: 16px 102px;
+        padding: 16px 112px;
 
         font-size: 13px;
         font-weight: 600;
@@ -640,9 +640,42 @@ footer p{
         width: 128px;
         height: 18px;
     }
+    footer img[src*='Twitter']{
+        width: 20px;
+        height: 14px;
+    }
+    footer img[src*='facebook']{
+        width: 12px;
+        height: 18px;
+    }
+    footer img[src*='Insta']{
+        width: 21.82px;
+        height: 21.82px;
+    }
+    footer img[src*='Linkedin']{
+        width: 18.53px;
+        height: 15.26px;
+    }
 
     footer > p {
         font-size: 13.33px;
+    }
+
+    /* MODAL */
+    #modal-container h4{
+        
+        font-size: 1rem;
+        text-align: center;
+        
+    }
+    #modal-container{
+        
+        padding: 30px;
+       
+    }
+    #modal-container .chek{
+        width: 50px;
+        height: 50px;
     }
     
 }
