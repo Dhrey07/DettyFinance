@@ -683,3 +683,14 @@ footer p{
     }
     
 }
+@media (max-width: 375px) {
+    .hit-info .second{
+        padding-inline: 16px 30px;
+    }
+    .container-2{
+        width: 85%;
+    }
+    .hit-info > .first{
+        padding: 20px 26px;
+    }
+}
