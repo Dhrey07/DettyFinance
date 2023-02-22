@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,700,500,600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script
       async
       src="https://cdnjs.waitlistpanda.com/embed/web/index.min.js"
       charset="utf-8"
       defer
     ></script>
+    
     <title>Detty Finance</title>
   </head>
   <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <header>
       <div class="detty-header">
         <img src="Images/detty 3.svg" alt="" />
@@ -24,27 +31,33 @@
         </ul>
       </div>
 
-      <div class="sign-up">
+      <!-- <div class="sign-up">
         <a href="customerlogin.html">Customer Login</a>
 
         <button>Sign up</button>
-      </div>
+      </div> -->
     </header>
 
     <main>
-      <div class="container-1">
-        <p>Effective debt management platform, made for everyone</p>
-        <h1>
-          Get All Your Debts In One
-
-          <span class="for-bck-inner">
-            Place
-            <img class="place" src="#" alt="#" />
-          </span>
-        </h1>
-        <button>Get Started</button>
+      <div id="lander">
+        <div class="container-1">
+          <p data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">Effective debt management platform, made for everyone</p>
+          <h1>
+            Get All Your Debts <br> In One Place
+            
+            <!-- <img class="place" src="#" alt="#" /> -->
+            
+          </h1>
+          <img src="/Images/joinwaitlist-shadow.svg" alt="#">
+          
+          <button>Join Waitlist</button>
+        </div>
+        <img src="/Images/background1.svg" alt="">
+        
+        <img data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-delay="500" data-aos-duration="1000" src="Images/landing-img.svg" alt="Description" />
       </div>
-      <img src="Images/DesktopINfo.svg" alt="Description" />
 
       <div class="container-2">
         <div class="container-2-upper">
@@ -63,12 +76,59 @@
                 width="40px"
                 height="40px"
               />
-              <h3>Loan Aggregation</h3>
+              <h3>Aggregate</h3>
               <p>
                 Connect various loan accounts to the app, which will display all
                 of the relevant information on a single dashboard.
               </p>
             </div>
+
+            <img src="Images/divider.svg" alt="#" />
+
+
+            <div class="offer-info">
+              <img
+                src="Images/DeAn.svg"
+                alt="Description"
+                width="40px"
+                height="40px"
+              />
+              <h3>Analyse</h3>
+              <p>
+                Analyses user's debts, income and expenses from the financial information provided.
+              </p>
+            </div>
+
+            <img src="Images/divider.svg"  class="option" alt="#" />
+
+            <div class="offer-info">
+              <img
+                src="Images/FE.svg"
+                alt="Description"
+                width="40px"
+                height="40px"
+              />
+              <h3>Educate</h3>
+              <p>
+                Provides information and tips on managing debt, improving credit score and achieving financial goals.
+              </p>
+            </div>
+
+            <img src="Images/divider.svg" class="added" alt="#" />
+
+            <div class="offer-info">
+              <img
+                src="Images/market.svg"
+                alt="Description"
+                width="40px"
+                height="40px"
+              />
+              <h3>Refinance</h3>
+              <p>
+                Allows for refinancing through a debt marketplace, selling online or getting a freelance gig to help provide extra source of income.
+              </p>
+            </div>
+            <img src="Images/divider.svg" class="option" alt="#" />
 
             <div class="offer-info">
               <img
@@ -77,32 +137,46 @@
                 width="40px"
                 height="40px"
               />
-              <h3>Budgeting Tool</h3>
+              <h3>Settle</h3>
               <p>
-                A budgeting tool that helps users track their expenses and
-                identify areas where they can save money.
+                Helps in settling all your debts in time without having to miss deadlines or forget about an existing debt.
               </p>
             </div>
+
+            
           </div>
 
-          <img src="Images/divider.svg" alt="#" />
-
-          <div class="div-1">
+          <!-- <div class="div-1">
             <div class="offer-info">
               <img
-                src="Images/DeAn.svg"
+                src="Images/market.svg"
                 alt="Description"
                 width="40px"
                 height="40px"
               />
-              <h3>Debt Analysis</h3>
+              <h3>Refinance</h3>
               <p>
-                Analyze user's loan accounts to predict the repayment dates,
-                amounts, and interests for each loan.
+                Sell debts to interested parties in a marketplace within the
+                app.
               </p>
             </div>
+            <img src="Images/divider.svg" alt="#" />
 
             <div class="offer-info">
+              <img
+                src="Images/BUTO.svg"
+                alt="Description"
+                width="40px"
+                height="40px"
+              />
+              <h3>Settle</h3>
+              <p>
+                A budgeting tool that helps users track their expenses and
+                identify areas where they can save money.
+              </p>
+            </div> -->
+
+            <!-- <div class="offer-info">
               <img
                 src="Images/IAs.svg"
                 alt="Description"
@@ -115,39 +189,11 @@
                 reduce expenses.
               </p>
             </div>
-          </div>
+          </div> -->
 
-          <img src="Images/divider.svg" alt="#" />
+          
 
-          <div class="div-1">
-            <div class="offer-info">
-              <img
-                src="Images/market.svg"
-                alt="Description"
-                width="40px"
-                height="40px"
-              />
-              <h3>Marketplace</h3>
-              <p>
-                Sell debts to interested parties in a marketplace within the
-                app.
-              </p>
-            </div>
-
-            <div class="offer-info">
-              <img
-                src="Images/FE.svg"
-                alt="Description"
-                width="40px"
-                height="40px"
-              />
-              <h3>Financial Education</h3>
-              <p>
-                Provides information and tips on managing debt, improving credit
-                score and achieving financial goals.
-              </p>
-            </div>
-          </div>
+          
         </div>
       </div>
 
@@ -155,20 +201,23 @@
         <h2>How It Works</h2>
 
         <div class="how-it-works">
-          <div class="sign">
+          <div class="hit-info"  data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
             <h2>1</h2>
-            <h4>Sign up with your phone number.</h4>
+            <h4 class="second">Sign up with your phone number.</h4>
+            
           </div>
 
-          <div class="sign">
+          <div class="hit-info " data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
             <h2>2</h2>
-            <h4>Add your loan accounts automatically or manually.</h4>
+            <h4 class="hide">Add your loan accounts automatically or manually.</h4>
+            <h4 class="view">Add your loan accounts manually or automatically.</h4>
           </div>
 
-          <div class="sign">
+          <div class="hit-info" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
             <h2>3</h2>
-            <h4>View your loans and have access to the marketplace.</h4>
+            <h4 >View your loans and have access to the marketplace.</h4>
           </div>
+          <img src="Images/How-m.svg" alt="">
         </div>
       </div>
 
@@ -212,7 +261,7 @@
 
     <footer>
       <a href="index.html"><img src="Images/detty 3.svg" alt="Logo" /></a>
-      <ul id="list-items">
+      <ul id="f-list-items">
         <li><a href="#">About</a></li>
         <li><a href="#">Features</a></li>
         <li><a href="#">Help</a></li>
