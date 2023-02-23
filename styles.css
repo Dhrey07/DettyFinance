@@ -569,9 +569,11 @@ footer p{
     .div-1{
         gap: 1rem;
         align-items: normal;
+        
     }
     .offer-info{
         margin-bottom: 0rem;
+        text-align: center;
     }
     /* CONTAINER-3 */
     .container-3{
