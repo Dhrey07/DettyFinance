@@ -120,6 +120,7 @@ button{
     color: white;
     padding: 0.56rem 1.75rem;
     border-radius: 10px;
+    cursor: pointer;
 
     font-family: 'Clash Display';
     font-size: 1rem;
