@@ -185,7 +185,7 @@ img[src*='joinwaitlist-shadow']{
     display: none;
 }
 #lander img[src*='background1']{
-    width: 90%;
+    max-width: 90%;
     position: absolute;
     z-index: 1;
     display: block;
@@ -301,9 +301,11 @@ img[src*='How-m']{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
 }
 
-
-.how-it-works{
+.container-3 .back{
     background: url(/Images/HIW-BCG.svg) no-repeat;
+}
+.how-it-works{
+    
     
     width: 90%;
     display: flex;
@@ -544,9 +546,9 @@ footer p{
     .container-1 .place{
         visibility: hidden;
     }
-    .container-1 > button{
+    /* .container-1 > button{
         padding: 1rem 5rem;
-    }
+    } */
     img[src*='joinwaitlist-shadow']{
         width: 90%;
         position: absolute;
@@ -564,11 +566,14 @@ footer p{
         margin-block: 2.5rem 0rem;
 
     }
+    .offer-info h3{
+        margin-top: 1rem;
+    }
     .container-2-upper p{
         margin-bottom: 2rem;
     }
     .div-1{
-        gap: 1rem;
+        gap: 2.0625rem;
         align-items: normal;
         
     }
@@ -580,12 +585,20 @@ footer p{
     .container-3{
         padding-block: 2.5rem;
     }
+    h2{
+        margin-block: 0rem;
+    }
 
     .how-it-works{
         align-items: center;
     }
+    .container-3 .back{
+        padding: 1rem;
+        margin: auto;
+        max-width: 346px;
+    }
     .container-3 > h2{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         font-size: 2.07375rem;
     }
     img[src*='How-m']{
@@ -612,7 +625,7 @@ footer p{
     }
     .hit-info .second{
         padding-block: 20px;
-        padding-inline: 16px 45px;
+        padding-inline: 16px 8px;
     }
     .hit-info .view{
         display: block;
@@ -636,6 +649,10 @@ footer p{
         font-weight: 600;
         line-height: 24px;
         width: 100%;
+    }
+    .info-section > p{
+        font-size: 1rem;
+        font-weight: 600;
     }
     .info-section input::placeholder{
         font-size: 0.8125rem;
@@ -687,8 +704,11 @@ footer p{
     
 }
 @media (max-width: 385px) {
+    .container-1 > button{
+        padding: 0.7rem 10%;
+    }
     .hit-info .second{
-        padding-inline: 16px 30px;
+        padding-inline: 16px 5px;
     }
     .container-2 .div-1{
         width: 85%;
@@ -697,7 +717,7 @@ footer p{
         padding: 20px 26px;
     }
 }
-@media (max-width: 370px) {
+@media (max-width: 379px) {
     .hit-info .second{
         padding-inline: 16px 30px;
         padding-block: 8px;
