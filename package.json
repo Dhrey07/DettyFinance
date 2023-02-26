@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@loadingio/loading.css": "^3.1.0",
+    "ldbutton": "^2.0.1"
+  }
+}
