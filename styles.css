@@ -587,7 +587,13 @@ footer p{
 
     }
     .offer-info h3{
-        margin-top: 1rem;
+        margin-top: 0.1rem;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .offer-info p{
+        font-size: 0.875rem;
+        line-height: 1.25rem;
     }
     .container-2-upper p{
         margin-bottom: 2rem;
