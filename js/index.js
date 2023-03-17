@@ -33,8 +33,17 @@ try {
     alert(error.response?.data?.message || error.response.data.error)
 }
 
-
 }
+
+//WAITLIST
+
+// save_btn = document.querySelector(".save-btn");
+// save_btn.onclick = function() {
+//   this.innerHTML = "<div class="loader"></div>";
+//   setTimeout(() => {
+//       this.innerHTML = "Thank You";
+//   }, 2000);
+// }
 // PLEASE WAIT
 // $('.btn').on('click', function() {
 //     var $this = $(this);
