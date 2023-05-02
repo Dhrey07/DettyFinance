@@ -9,8 +9,17 @@ const nameInput = document.querySelector("#first_name");
 
 waitListForm.addEventListener('submit',submitForm)
 
+const setButtonLoading = () =>{
+    document.querySelector(".save-btn").innerHTML = '<div class="loader"></div>'
+}
+const resetBtn = () => {
+    document.querySelector(".save-btn").innerHTML = 'Join the List!'
+}
+
+
 async  function submitForm (e) {
 e.preventDefault();
+setButtonLoading()
 
 const body = {
     "first_name":nameInput.value,
@@ -22,6 +31,7 @@ try {
     const response = await axios.post(url,body)
     nameInput.value = '';
     emailInput.value = ''
+    resetBtn()
     const modal_popup = document.querySelector("#modal")
     modal_popup.classList.add("modal-open");
     setTimeout(() =>{
@@ -30,6 +40,7 @@ try {
     // alert("Thank You for Joining Our Waitlist")
 } catch (error) {
     console.log(error)
+    resetBtn()
     alert(error.response?.data?.message || error.response.data.error)
 }
 
@@ -44,7 +55,8 @@ try {
 //       this.innerHTML = "Thank You";
 //   }, 2000);
 // }
-// PLEASE WAIT
+// //PLEASE WAIT
+
 // $('.btn').on('click', function() {
 //     var $this = $(this);
 //   $this.button('loading');

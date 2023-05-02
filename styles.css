@@ -399,6 +399,40 @@ img[src*='How-m']{
     align-self: flex-end;
     border-radius: 4px;
 }
+/* LOADER */
+.save-btn{
+    /* font-size: 22px;
+    color: #FFFFFF;
+    background: #29ca8e;
+    width: 250px;
+    height: 60px; */
+    cursor: pointer;
+    /* border-radius: 3px; */
+    box-shadow: 0 8px 5px -5px rgba(0, 0, 0, 0.2);
+    display: grid;
+    place-content: center;
+   
+     
+  }
+  .loader{
+    pointer-events: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #281111;
+    animation: an1 1s ease infinite;
+    
+  }
+  
+  @keyframes an1 {
+    0% {
+      transform: rotate (0turn);
+    }
+    100%{
+      transform: rotate(1turn)
+    }
+  }
 /* Modal */
 
 .modal-hidden{
@@ -693,39 +727,7 @@ footer p{
         font-size: 0.8125rem;
         
     }
-    /* .save-btn{
-        font-size: 22px;
-        color: #FFFFFF;
-        background: #29ca8e;
-        width: 250px;
-        height: 60px;
-        cursor: pointer;
-        border-radius: 3px;
-        box-shadow: 0 8px 5px -5px rgba(0, 0, 0, 0.2);
-        display: grid;
-        place-content: center;
-       
-         
-      }
-      .loader{
-        pointer-events: none;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        border: 3px solid transparent;
-        border-top-color: #FFFFFF;
-        animation: an1 1s ease infinite;
-        
-      }
-      
-      @keyframes an1 {
-        0% {
-          transform: rotate (0turn);
-        }
-        100%{
-          transform: rotate(1turn)
-        }
-      } */
+    
 
     /* FOOTER */
     footer img[src*='detty 3']{
