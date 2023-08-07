@@ -804,7 +804,9 @@ footer p{
     .sub-div{
         width: 16rem;
     }
-
+    .imgs{
+        padding-bottom: 1.5rem;
+    }
     .hit-info{
         flex-direction: column-reverse;
         padding-bottom: 4rem;
