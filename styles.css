@@ -48,7 +48,7 @@ h4{
     font-weight: 500;
     font-size: 1rem;
     line-height: 24px;
-    color: #000000;
+    color: #FAFAFA;
 }
 p{
     line-height: 26px;
@@ -281,10 +281,6 @@ img[src*='joinwaitlist-shadow']{
     display: none;
 }
 
-.back{
-    max-width: 1440px;
-}
-
 .hit-info{
     
     /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
@@ -294,32 +290,52 @@ img[src*='joinwaitlist-shadow']{
     padding-block: 97px;
     padding-inline: 32px 55px; */
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    
     align-items: center;
+    justify-content: center;
     gap: 8px;
 }
 img[src*='How-m']{
     display: none;
 }
-.img{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+
+.hit-info > h2{
+    background: #000000;
+    color: #FAFAFA;
+    font-size: 2rem;
+    margin-block: 0rem;
+    
+
+    padding: 1.25rem 2rem;
+    border-radius: 4px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.hit-info > h4{
+    background: #000000;
+    max-width: 261px;
+    color: #FAFAFA;
+    height: 47px;
+
+    padding-block: 1.25rem;
+    padding-inline: 0.5rem 0.5rem;
+    
+    border-radius: 4px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
 }
 
-.imgs{
-    width: 50%;
-    margin: auto;
+.container-3 .back{
+    background: url(/Images/HIW-BCG.svg) no-repeat;
 }
-
-.sub-div{
+.how-it-works{
+    
+    
+    width: 90%;
     display: flex;
+    flex-wrap: wrap;
+    
     justify-content: center;
-    align-items: center;
-    width: 18rem;
+    gap: 21px;
+    margin: auto;
 }
 @media screen {
     
@@ -528,17 +544,7 @@ footer p{
         display: none;
     }
 
-    .first{
-        font-size: 30px !important;
-        margin: 13px 0 !important;
-    }
-    .second{
-        font-size: 10px !important;
-    }
 
-    .sub-div{
-        width: 10rem;
-    }
     .how-it-works{
         display: flex;
         flex-direction: column;
@@ -789,33 +795,5 @@ footer p{
     .hit-info .second{
         padding-inline: 16px 30px;
         padding-block: 8px;
-    }
-}
-@media (max-width: 700px) {
-     .first{
-        font-size: 20px !important;
-        margin: 6px 0 !important;
-        line-height: 24px;
-    }
-    .second{
-        font-size: 10px !important;
-    }
-
-    .sub-div{
-        width: 16rem;
-    }
-    .imgs{
-        padding-bottom: 1.5rem;
-    }
-    .hit-info{
-        flex-direction: column-reverse;
-        padding-bottom: 4rem;
-    }
-    .hit-info .second {
-        padding: 0;
-    }
-
-    .cool{
-        flex-direction: column;
     }
 }
