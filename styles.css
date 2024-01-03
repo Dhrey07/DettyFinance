@@ -862,9 +862,17 @@ footer p{
     }
 }
 
+#flexx{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 90%;
+}
+
 @media (max-width: 465px) {
     .img{
-        height: 10rem;
+        height: 12rem;
     }
     .imgs{
         padding-bottom: 0;
